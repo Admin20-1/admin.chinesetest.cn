@@ -4,22 +4,27 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
     <title>MauiApp1</title>
+    
+    <!-- Ensure the correct base path -->
     <base href="/" />
-    <link rel="stylesheet" href="_content/MauiApp1.Shared/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="_content/MauiApp1.Shared/app.css" />
-    <link rel="stylesheet" href="app.css" />
-    <link rel="stylesheet" href="MauiApp1.styles.css" />
-    <link rel="icon" href="data:,">
-</head>
 
+    <!-- Corrected CSS file paths -->
+    <link rel="stylesheet" href="_content/MauiApp1/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="_content/MauiApp1/app.css" />
+    <link rel="stylesheet" href="MauiApp1.styles.css" />
+
+    <!-- Provide a valid favicon or remove the line -->
+    <link rel="icon" href="favicon.ico" />
+
+</head>
 <body>
 
     <div class="status-bar-safe-area"></div>
 
     <div id="app">Loading...</div>
 
-    <script src="_framework/blazor.webview.js" autostart="false"></script>
+    <!-- Ensure the Blazor script loads properly -->
+    <script src="_framework/blazor.webview.js"></script>
 
 </body>
-
 </html>
